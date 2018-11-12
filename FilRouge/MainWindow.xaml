@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FilRouge"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="447.479" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="251,211,246,55">
+            <Grid.Background>
+                <ImageBrush ImageSource="http://fr.ubergizmo.com/wp-content/uploads/2013/05/shutterstock_57007598.jpg"/>
+            </Grid.Background>
+        </Grid>
+        <Button Content="Gestion des quiz" HorizontalAlignment="Left" Margin="273,116,0,0" VerticalAlignment="Top" Width="246" Height="40" Click="Button_Click"/>
+        <Button Content="Gestion des questions" HorizontalAlignment="Left" Margin="564,141,0,0" VerticalAlignment="Top" Width="179" Height="40"/>
+        <Button Content="Gestion des technologies" HorizontalAlignment="Left" Margin="564,214,0,0" VerticalAlignment="Top" Width="179" Height="40"/>
+        <Button Content="Gestion des ratio" HorizontalAlignment="Left" Margin="564,286,0,0" VerticalAlignment="Top" Width="179" Height="40"/>
+        <Button Content="Gestion des niveaux" HorizontalAlignment="Left" Margin="48,286,0,0" VerticalAlignment="Top" Width="179" Height="40"/>
+        <Button Content="Gestion des réponses" HorizontalAlignment="Left" Margin="48,214,0,0" VerticalAlignment="Top" Width="179" Height="40"/>
+        <Button Content="Gestion des résultats" HorizontalAlignment="Left" Margin="48,141,0,0" VerticalAlignment="Top" Width="179" Height="40"/>
+        <TextBox Height="30" HorizontalAlignment="Center" Margin="251,44,246,0" TextWrapping="Wrap" Text="Gestion des modules du quiz technique" VerticalAlignment="Top" TextChanged="TextBox_TextChanged" FontSize="20" FontWeight="Bold" Width="295" TextAlignment="Center"/>
     </Grid>
 </Window>

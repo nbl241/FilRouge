@@ -37,6 +37,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -55,6 +57,34 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="GestionDesQuestions.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GestionDestechnologies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GestionDesRatio.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GestionDesNiveaux.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GestionDesReponses.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GestionDesResultats.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GestionDesQuiz.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -62,6 +92,27 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GestionDesQuestions.xaml.cs">
+      <DependentUpon>GestionDesQuestions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionDestechnologies.xaml.cs">
+      <DependentUpon>GestionDestechnologies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionDesRatio.xaml.cs">
+      <DependentUpon>GestionDesRatio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionDesNiveaux.xaml.cs">
+      <DependentUpon>GestionDesNiveaux.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionDesReponses.xaml.cs">
+      <DependentUpon>GestionDesReponses.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionDesResultats.xaml.cs">
+      <DependentUpon>GestionDesResultats.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionDesQuiz.xaml.cs">
+      <DependentUpon>GestionDesQuiz.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
